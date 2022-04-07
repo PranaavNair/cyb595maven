@@ -15,7 +15,7 @@ public class junit_test {
     @Test
     public void testCheckSignShouldReturnNegative() {
         MySimpleMath sm = new MySimpleMath();
-        Assert.assertEquals("negative", sm.checkSign(-5));
+        Assert.assertEquals("positive", sm.checkSign(-5));
     }
 
 }
